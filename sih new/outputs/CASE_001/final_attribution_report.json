@@ -1,0 +1,64 @@
+{
+    "case_id": "CASE_001",
+    "incident_name": "Gulf of Mexico Pipeline/Platform Leak",
+    "pipeline_execution_time": "2026-08-28T10:42:43.969320+00:00",
+    "spill_analysis": {
+        "observation_time": "2020-05-12T14:30:00Z",
+        "estimated_release_time": "2020-05-11T14:30:00Z",
+        "drift_duration_hours": 24,
+        "slick_centroid": {
+            "lat": 28.72856,
+            "lon": -89.2191
+        },
+        "slick_surface_area_km2": 162.72,
+        "slick_perimeter_km": 144.35,
+        "probable_origin_centroid": {
+            "lat": 28.57908,
+            "lon": -89.33227
+        }
+    },
+    "top_attributed_vessel": {
+        "mmsi": 367123450,
+        "vessel_name": "GULF_EXPLORER_TANKER",
+        "vessel_type": "Tanker",
+        "attribution_score": 0.941,
+        "confidence_level": "HIGH",
+        "metrics": {
+            "spatial_score": 0.83,
+            "temporal_score": 1.0,
+            "kinematic_score": 1.0,
+            "vessel_risk_score": 1.0
+        },
+        "evidence": "CPA 0.93km from origin | Residency 6.25h | Loitering speed 2.54kts"
+    },
+    "all_candidate_vessels": [
+        {
+            "mmsi": 367123450,
+            "vessel_name": "GULF_EXPLORER_TANKER",
+            "vessel_type": "Tanker",
+            "attribution_score": 0.941,
+            "confidence_level": "HIGH",
+            "metrics": {
+                "spatial_score": 0.83,
+                "temporal_score": 1.0,
+                "kinematic_score": 1.0,
+                "vessel_risk_score": 1.0
+            },
+            "evidence": "CPA 0.93km from origin | Residency 6.25h | Loitering speed 2.54kts"
+        },
+        {
+            "mmsi": 368987650,
+            "vessel_name": "DELTA_CARRIER_CARGO",
+            "vessel_type": "Cargo",
+            "attribution_score": 0.298,
+            "confidence_level": "LOW",
+            "metrics": {
+                "spatial_score": 0.029,
+                "temporal_score": 0.75,
+                "kinematic_score": 0.1,
+                "vessel_risk_score": 0.5
+            },
+            "evidence": "Residency 3.0h"
+        }
+    ]
+}

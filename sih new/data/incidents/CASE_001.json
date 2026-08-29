@@ -1,0 +1,15 @@
+{
+    "case_id": "CASE_001",
+    "incident_name": "Gulf of Mexico Pipeline/Platform Leak",
+    "date": "2020-05-12T14:30:00Z",
+    "latitude": 28.75,
+    "longitude": -89.25,
+    "region": "Gulf of Mexico / Mississippi Canyon",
+    "sar_platform": "Sentinel-1A IW GRD",
+    "bounding_box": {
+        "min_lat": 28.25,
+        "max_lat": 29.25,
+        "min_lon": -89.75,
+        "max_lon": -88.75
+    }
+}

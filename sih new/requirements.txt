@@ -1,0 +1,21 @@
+# FastAPI & Server Runtime
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+pydantic>=2.6.0
+python-multipart>=0.0.9
+
+# Geospatial & Data Analysis
+numpy>=1.26.0
+pandas>=2.2.0
+shapely>=2.0.0
+geopandas>=0.14.0
+
+# Scientific & ML Acceleration
+scipy>=1.12.0
+scikit-learn>=1.4.0
+xgboost>=2.0.0
+
+# File & Network Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+aiofiles>=23.2.1
