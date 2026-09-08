@@ -224,6 +224,15 @@ export default function App() {
             <span className="text-emerald-400 font-semibold">Live</span>
           </label>
 
+          <a
+            href="https://oil-spill-detection-2.onrender.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 bg-cyan-950/70 hover:bg-cyan-900 border border-cyan-700 text-cyan-300 px-2.5 py-1 rounded-lg font-semibold transition-colors"
+          >
+            <ExternalLink className="h-3.5 w-3.5" /> LIVE SYSTEM
+          </a>
+
           <label className="flex items-center gap-1.5 cursor-pointer">
             <input
               type="checkbox"
